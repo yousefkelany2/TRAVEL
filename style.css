@@ -1,0 +1,137 @@
+body{
+    font-family: "Tajawal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Start Header */
+input{
+    outline: none;
+    border: none;
+}
+
+.NAVM  li a {
+    color: white !important;
+}
+
+header{
+    background-image: linear-gradient(rgba(20,20,20,0.7),rgba(20,20,20,0.7)),url("images/bg-hero.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.pages li a{
+   
+    color: black !important;
+}
+.searH button{
+    top: 48%;
+    right: 12%;
+   
+
+}
+/* End Header */
+/*Start  Service */
+.BOX{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 10px;
+}
+
+
+/* End Service */
+
+/* Start Popular */
+.TALLIMG img{
+    height: 700px;
+}
+/* End  Popular */
+/* sTART */
+.ALL{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* end */
+
+/* Start TEAM  */
+.TEAMBOX{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.TEAMBOX .SCOCIAL{
+left: 25%;
+top: 66%;
+gap: 20px;
+
+}
+.TEAMBOX .SCOCIAL i{
+    cursor: pointer;
+    transition: 0.5s !important;
+}
+.TEAMBOX .SCOCIAL i:hover{
+  
+  color: rgb(99, 99, 230) !important;
+}
+/* END  TEAM*/
+.MENU{
+    color: white !important;
+}
+@media screen and (max-width : 480px){
+    .searH button{
+        right: 12%;
+        top: 55%;
+    }
+    .searH input{
+        padding: 2px 2px 2px 2px !important ;
+    }
+    .searH button{
+        padding: 2px 2px 2px 2px !important ;
+    }
+    .Popular img{
+        height: 300px;
+        margin-top: 5px;
+    }
+    .TEAMBOX .SCOCIAL{
+        left: 30%;
+        top: 75%;
+       
+        
+    }
+    .TEAMBOX{
+        margin-top: 8px;
+    }
+}
+@media screen and (min-width : 481px) and (max-width : 770px){
+   
+   
+    .Popular img{
+        width: 1000%;
+        height: 300px;
+        margin-top: 5px;
+    }
+    .TEAMBOX .SCOCIAL{
+        left: 22%;
+        top: 63%;
+       
+        
+    }
+    .TEAMBOX{
+        margin-top: 8px;
+    }
+   
+}
+@media screen and (min-width : 771px) and (max-width : 1100px){
+    .Popular img{
+        width: 100%;
+        height: 300px;
+        margin-top: 5px;
+    }
+    .TEAMBOX .SCOCIAL{
+        left: 22%;
+        top: 50%;
+       
+        
+    }
+    .TEAMBOX{
+        margin-top: 8px;
+    }
+    .TALLIMG img{
+        height: 620px;
+    }
+}
